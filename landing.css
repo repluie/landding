@@ -119,7 +119,7 @@ P.disc {
 header {
   position: relative;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/visual_bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55)), url(./images/visual_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -619,7 +619,6 @@ li {
 }
 
 .point.six .table_box .platform_table td:last-child {
-  wdith: 15%;
   text-align: center;
 }
 
@@ -702,6 +701,11 @@ footer .footer_layout .logo_box img {
 .badges {
   opacity: 0;
 }
+
+.badges .badge:hover {
+  background-color: #666 !important;
+}
+
 .badges .badge.to-top {
   width: 48px;
   height: 48px;
@@ -714,7 +718,7 @@ footer .footer_layout .logo_box img {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 180px;
+  bottom: 130px;
   right: 100px;
   z-index: 9;
 }
@@ -731,7 +735,7 @@ footer .footer_layout .logo_box img {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 124px;
+  bottom: 74px;
   right: 100px;
   z-index: 9;
 }
